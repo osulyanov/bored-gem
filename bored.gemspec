@@ -3,7 +3,7 @@
 require_relative "lib/bored/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "Bored Gem"
+  spec.name = "bored-gem"
   spec.version = Bored::VERSION
   spec.authors = ["Oleg Sulyanov"]
   spec.email = ["oleg@sulyanov.com"]
