@@ -6,14 +6,14 @@ RSpec.describe Bored do
   end
 
   it "gives you an activity" do
-    activity = Bored.now
+    activity = described_class.now
 
     expect(activity.id).to be_a(Integer)
     expect(activity.description).to be_a(String)
     expect(%i[
              education recreation social diy charity
              cooking relaxation music busywork
-    ]).to include(activity.type)
+           ]).to include(activity.type)
     expect(activity.participants).to be_a(Integer)
     expect(0..1).to cover(activity.accessibility)
     expect(0..1).to cover(activity.price)
