@@ -3,14 +3,14 @@
 require_relative "lib/bored/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "bored"
+  spec.name = "Bored Gem"
   spec.version = Bored::VERSION
   spec.authors = ["Oleg Sulyanov"]
   spec.email = ["oleg@sulyanov.com"]
 
   spec.summary = "Creating my first gem"
   # spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "https://hithub.com/osulyanov/bored"
+  spec.homepage = "https://hithub.com/osulyanov/bored-gem"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
